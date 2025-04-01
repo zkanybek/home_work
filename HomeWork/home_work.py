@@ -1,7 +1,7 @@
 class Hero:
 
     def __init__(self, name, lvl, hp):
-        self.name = name
+        self.name = name #атрибуты
         self.lvl = lvl
         self.HP = hp
 
