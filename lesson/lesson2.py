@@ -1,6 +1,6 @@
 class Ban:
     def __init__(self, name, balance, password):
-        self.namename = names
+        self.namename = name
         self.balance = balance
         self.password = password
 
@@ -9,3 +9,4 @@ class Ban:
             self.balance += amount
             return
         else:
+            return
