@@ -13,3 +13,15 @@ class Animal(ABC):
 
 class Dog(Animal):
     pass
+
+    def make_sound(self):
+        return "Gaf gaf"
+
+    def move(self):
+        return "action step"
+
+dog = Dog()
+
+print(dog)
+print(dog.make_sound())
+print(dog.move())

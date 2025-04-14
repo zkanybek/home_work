@@ -15,3 +15,12 @@ git push origin master\main
 git switch branch_name | Переключение ветки LS/Lesson2
 git branch branch_name | Создать ветки
 git checkout  branch_name | Переключение ветки
+
+Команды для venv
+.venv deactivate
+py
+python -m venv name_venv
+python3
+source venv; bin; activate
+venv\Scripts\activate
+
