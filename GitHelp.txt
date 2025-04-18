@@ -5,8 +5,7 @@ git config --global user.email "your-email@example.com"
 git init
 git remote add origin https://github.com/zkanybek/home_work.git
 
-git remote add origin https://github.com/zkanybek/OOP-53-2.git
-часто используимыме команды
+  часто используимыме команды
 git status
 git add .
 git commit -m "commit name"
@@ -24,3 +23,8 @@ python3
 source venv; bin; activate
 venv\Scripts\activate
 
+pip freeze > requirements.txt  | создание нового файла с данными скаченными библиотекамми
+git restore | Обратная перемотка
+git restore GitHelp.txt
+git reset | удоляет  то что добавляет  в git add .
+git reset GitHep.txt
