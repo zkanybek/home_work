@@ -14,6 +14,9 @@ cursor.execute('''
 ''')
 connect.commit()
 
+
+
+
 # CREATE
 def add_client(name, age, birthday):
     cursor.execute(
